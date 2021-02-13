@@ -10,7 +10,7 @@ class DBHelper {
       path.join(dbPath, 'places.db'),
       version: 1,
       onCreate: (db, version) {
-        db.execute('CREATE TABLE ${DBHelper.userPlacesTable}(id TEXT PRIMARY KEY, title TEXT, image TEXT)');
+        db.execute('CREATE TABLE ${DBHelper.userPlacesTable}(id TEXT PRIMARY KEY, title TEXT, image TEXT, latitude REAL, longitude REAL, address TEXT)');
       }
     );
   }
