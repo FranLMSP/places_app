@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 
 import './providers/great_places.dart';
 import './screens/add_place_screen.dart';
-import './screens/place_detail_screen.dart';
 import './screens/places_list_screen.dart';
 
 void main() {
